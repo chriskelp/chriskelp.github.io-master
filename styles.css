@@ -1,0 +1,68 @@
+
+body {
+  padding-top: 2em;
+  background: #2E7F55 ;
+  color: #2E7F55;
+  font-family: 'Medula One', cursive;
+  font-size:2em;
+  text-align:center;
+  letter-spacing: .27em;
+}
+
+#container{
+  margin: 0 auto;
+  position:relative;
+  width: 16em;
+  height: 18em;
+  background: url("img/grate.jpeg");
+  border:solid black 0.25em;
+  border-radius: 10%;
+  
+}
+
+.box {
+  margin: 0 auto;
+  margin-top:.85em;
+  position:relative;
+  width: 9.5em;
+  height: 3.25em;
+  border-radius: 0.938em;
+  margin-bottom: 0.625em;
+  background: #410066;
+  cursor: pointer;
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+ }
+
+.box:hover {
+  background: #BFA26C;
+  border-radius: 10% 10% 80% 80%;
+  border:solid .15em #410066;
+  font-weight:bold;
+}
+
+
+
+.box a,
+.box:hover a{
+  position:absolute;
+  text-decoration:none;
+  display:block;
+  height:100%;
+  width:100%;
+  color:#2E7F55;
+  font-weight:bold;
+}
+
+footer{
+  margin: 1.250em;
+  font-family: 'Helvetica';
+  font-size:0.55em;
+  color:lightgray;
+  line-height: 1.5em;
+  letter-spacing:.08em;
+
+}
+
